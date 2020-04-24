@@ -1,0 +1,37 @@
+*{
+	font-family: consolas;
+	font-size: 60px;
+	background-color: rgb(52, 61, 70);
+	color: white;
+	text-align: center;
+}
+
+body{
+	padding: 50px;
+	align-content: center;
+	display: block;
+}
+
+#new-game-btn{
+	padding: 20px 40% 20px 40%;
+	
+}
+
+#yes-btn, #higher-btn, #lower-btn{
+	padding: 20px;
+}
+
+button:hover{
+	background-color: black;
+}
+
+button{
+	border-radius: 50px;
+	margin: 20px;
+	border: 5px white solid;
+	transition: 0.5s;
+}
+
+.colored-txt{
+	color: rgb(249, 174, 89);
+}
